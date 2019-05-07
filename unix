@@ -1,0 +1,23 @@
+ls(list) -gives files in our current directory
+ls -l-gives long listing
+ls -F -->executable will get * at last of file name
+pwd-->to know present working directory
+mkdir -p testdir/testdir1-->create directory in a directory
+After creating the directory we can check the main directory testdir  by running ls command
+To check subdirectory we can change the directory by using cd testdir command....and after changing the path we can check the subdirectory by running ls command again
+to come to main directory again -->run cd or cd ~
+cd ..-->to the previous directory
+ls -R testdir-->we can see sub dircetories
+info ls-information about ls
+cat etc/sysctl.conf -details of the file
+
+to create file in a directory =-->touch file1 file2 file3
+
+to copy from one directory to another directory
+mkdir copydir -->where we want to copy directory
+cp -r dir1 copydir -->copying dir2 in dir1 to copydir
+
+to move:
+cp -r copydir to dir1
+
+
