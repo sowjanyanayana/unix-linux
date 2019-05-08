@@ -21,3 +21,25 @@ to move:
 cp -r copydir to dir1
 
 
+esc+b--moves cursor backward
+esc+f-->forward
+ctrl+A-->to first
+ctrl+E-->to end
+!!-->runs the last command we runned
+vi file1.txt-->creates file1.txt file
+we can enter into it using insert or esc i
+after entering -->esc+:wq
+
+
+ cat -b file1.txt-->displays deatails with line numbers
+REMOVING:
+--------
+rm,rmdir directorynmae
+
+cal-->for nder
+date-->fordate
+
+head -25 textfile.txt-->prints 25 lines from the file
+head filename -->prints 10 lines
+
+ wc -l <filename -->prints no.of lines
